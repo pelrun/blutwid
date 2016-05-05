@@ -1,0 +1,44 @@
+Source,C:/Users/James/Documents/Projects/KicadProjects/blutwid-rn42/blutwid.sch
+Kicad Rev,Eeschema 4.0.0-rc1-stable
+Generated Date,26/10/2015 3:59:36 PM
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,20 jul 2013
+
+Reference,Value,manf#,manu#,Supplier,Library,Library Ref
+U3,MCP73831T-2,MCP73831T-2ATI/OT,,,p_misc,MCP73831
+C2,10uF,w_device,C
+C3,10uF,w_device,C
+R3,10k,w_device,R
+P2,BATT,blutwid-cache,CONN_2
+SW1,WKUP,EVQP7A01K,,,w_device,SW_PUSH
+R5,10k,w_device,R
+U1,MCP1253-33X50,MCP1253-33X50I/MS,,,p_misc,MCP1252/3
+C5,1uF,w_device,C
+C4,10uF,w_device,C
+R6,10k,w_device,R
+C1,10uF,w_device,C
+R9,10k,w_device,R
+R10,10k,w_device,R
+Q1,MOS_N_DGS,,FDN337N,,w_transistor,MOS_N_DGS
+R11,10k,w_device,R
+J1,KBD/MS,w_connectors,HEADER_6
+U4,REG_3V3,,SP6205EM5-L-3-3,,p_misc,REG_3V3
+C7,1uF/X7R,,GRM155R70G105KA12D,,w_device,C
+C6,1uF/X7R,,GRM155R70G105KA12D,,w_device,C
+J2,SWD,w_connectors,HEADER_5
+U5,STM32F030,STM32F030K6T6,,element14:http://au.element14.com/stmicroelectronics/stm32f030k6t6/mcu-32bit-cortex-m0-48mhz-lqfp/dp/2432085,p_misc,STM32F030-32SMD
+C9,0.1u,w_device,C
+C10,0.1u,w_device,C
+R4,10k,w_device,R
+U2,Roving_RN-42,RN42-I/RM,,,w_rtx,Roving_RN-42
+P1,USB-5PIN,USB3065-30-00-A,,,p_misc,USB-5PIN
+J4,BRD2,w_connectors,HEADER_6
+J3,BRD1,w_connectors,HEADER_6
+J5,M,w_connectors,HEADER_1
+J6,M,w_connectors,HEADER_1
+J7,M,w_connectors,HEADER_1
+J8,M,w_connectors,HEADER_1
+J9,PWR,w_connectors,HEADER_2

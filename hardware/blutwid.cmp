@@ -1,0 +1,199 @@
+Cmp-Mod V01 Created by Cvpcb (2015-01-20 BZR 5383)-product   date = 21/02/2015 3:06:39 PM
+
+BeginCmp
+TimeStamp = /514863BB;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = w_smd_cap:c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5145EEF5;
+Reference = C2;
+ValeurCmp = 10uF;
+IdModule  = w_smd_cap:c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5145EF3C;
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = w_smd_cap:c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /51485E3F;
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = w_smd_cap:c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /51485CF0;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AF1B39;
+Reference = C6;
+ValeurCmp = 1uF/X7R;
+IdModule  = w_smd_cap:c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AF1AD4;
+Reference = C7;
+ValeurCmp = 1uF/X7R;
+IdModule  = w_smd_cap:c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E750ED;
+Reference = C8;
+ValeurCmp = 0.1u;
+IdModule  = w_smd_cap:c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E7806C;
+Reference = C9;
+ValeurCmp = 0.1u;
+IdModule  = w_smd_cap:c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E782AC;
+Reference = C10;
+ValeurCmp = 0.1u;
+IdModule  = w_smd_cap:c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53ACE0BE;
+Reference = J1;
+ValeurCmp = TWIDDLER;
+IdModule  = w_pin_strip:pin_strip_6;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E740A8;
+Reference = J2;
+ValeurCmp = SWDEBUG;
+IdModule  = w_pin_strip:pin_strip_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E7C2D5;
+Reference = P1;
+ValeurCmp = VIN;
+IdModule  = w_pin_strip:pin_strip_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5146AC21;
+Reference = P2;
+ValeurCmp = BATT;
+IdModule  = w_pin_strip:pin_strip_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5159BC3D;
+Reference = Q1;
+ValeurCmp = MOS_N_DGS;
+IdModule  = w_smd_trans:sot23;
+EndCmp
+
+BeginCmp
+TimeStamp = /5145EF68;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E7FCEB;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /51484875;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5148624F;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /515595A6;
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /51559682;
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EA1763;
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /51483CC5;
+Reference = SW1;
+ValeurCmp = SW;
+IdModule  = w_pin_strip:pin_strip_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51485705;
+Reference = U1;
+ValeurCmp = MCP1252/3;
+IdModule  = w_smd_dil:msoic-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /514FADF2;
+Reference = U2;
+ValeurCmp = ITEAD_HC-05;
+IdModule  = w_rf_modules:ITEAD_HC-05;
+EndCmp
+
+BeginCmp
+TimeStamp = /5145EE05;
+Reference = U3;
+ValeurCmp = MCP73831;
+IdModule  = w_smd_trans:sot23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AE51F5;
+Reference = U4;
+ValeurCmp = REG_3V3;
+IdModule  = w_smd_trans:sot23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E763A3;
+Reference = U5;
+ValeurCmp = STM32F030;
+IdModule  = w_smd_lqfp:lqfp32;
+EndCmp
+
+EndListe
