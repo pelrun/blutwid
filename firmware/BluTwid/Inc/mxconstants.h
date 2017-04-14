@@ -64,10 +64,6 @@
 #define BT_nCS_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
-#define BT_IDLE_POWEROFF_TIMEOUT_MS (5*60*1000)
-#define BT_BATTERY_CHECK_INTERVAL_MS (30*1000)
-#define BT_BATTERY_LEVEL_CRITICAL_mV 3200
-
 /* USER CODE END Private defines */
 
 /**

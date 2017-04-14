@@ -31,7 +31,7 @@
   ******************************************************************************
   */
 /* Includes ------------------------------------------------------------------*/
-#include "stm32f0xx_hal.h"
+#include "stm32f0xx.h"
 #include "adc.h"
 #include "iwdg.h"
 #include "spi.h"
@@ -39,6 +39,12 @@
 #include "gpio.h"
 
 /* USER CODE BEGIN Includes */
+
+#include <stdbool.h>
+
+#include "blutwid.h"
+#include "ps2keyboard.h"
+#include "ps2mouse.h"
 
 /* USER CODE END Includes */
 
@@ -71,8 +77,8 @@ int main(void)
 
   /* USER CODE BEGIN 1 */
 
-  uint32_t idle_timeout = BT_IDLE_POWEROFF_TIMEOUT_MS;
-  uint32_t battcheck_timeout = 0;
+  uint32_t idle_timeout = HAL_GetTick() + BT_IDLE_POWEROFF_TIMEOUT_MS;
+  uint32_t battcheck_timeout = HAL_GetTick();
 
   /* USER CODE END 1 */
 
@@ -120,11 +126,9 @@ int main(void)
       BT_PowerOff();
     }
 
-    // read keyboard
-    // send keyboard
+    PS2Keyboard_Process();
 
-    // read mouse
-    // send mouse
+    //PS2Mouse_Process();
 
   }
   /* USER CODE END 3 */
@@ -198,10 +202,10 @@ void assert_failed(uint8_t* file, uint32_t line)
 
 /**
   * @}
-  */ 
+  */
 
 /**
   * @}
-*/ 
+*/
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
